@@ -32,10 +32,15 @@ html{line-height:1.15}body{margin:0;font-family:sans-serif}h1{font-size:2em;marg
 .gallery-item a img {display: block; backface-visibility: hidden}
 .gallery-item a:hover img, .gallery-item a:focus img {opacity: 0.6}
 .gallery-caption {display: block; margin-bottom: 0}
-.elementor-section {padding:50px 0;}
+.elementor-section {padding:100px 0;}
 .elementor-element.elementor-button-info .elementor-button {
     background: black;
     border-radius: 60px;
     text-transform: uppercase;
     font-weight: 300;
+}
+@media only screen and (max-width: 480px){
+.eael-pricing.style-1 .eael-pricing-item .price-tag {
+    display: inline-block;
+}
 }
