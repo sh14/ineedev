@@ -44,3 +44,19 @@ html{line-height:1.15}body{margin:0;font-family:sans-serif}h1{font-size:2em;marg
     display: inline-block;
 }
 }
+
+.gdrp-list {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.gdrp-list__item {
+	padding:0;
+	margin:0;
+}
+.gdrp-list__link {
+	color:#aaa;
+}
+.gdrp-list__link:hover {
+	color:#ccc;
+}
